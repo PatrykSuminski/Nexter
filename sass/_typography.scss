@@ -43,9 +43,6 @@
 	}
 }
 
-
-
-
 /////////////////////
 //BUTTONS
 
@@ -59,20 +56,26 @@
 	text-transform: uppercase;
 	padding: 1.8rem 3rem;
 	cursor: pointer;
-	transition: background-color .2s;
+	transition: background-color 0.2s;
 
 	&:hover {
 		background-color: $color-primary-dark;
 	}
 }
 
-
-
 /////////////////////
 //MARGINS
 
 // margin bottoms
-.mb-sm {margin-bottom: 2rem;}
-.mb-md {margin-bottom: 3rem;}
-.mb-lg {margin-bottom: 4rem;}
-.mb-xl {margin-bottom: 8rem;}
+.mb-sm {
+	margin-bottom: 2rem;
+}
+.mb-md {
+	margin-bottom: 3rem;
+}
+.mb-lg {
+	margin-bottom: 4rem;
+}
+.mb-xl {
+	margin-bottom: 8rem;
+}
